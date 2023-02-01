@@ -214,40 +214,15 @@ public class BootSpringBootApplication {
 
 
 ## 1.6. 링크 연결
-* 참조링크
 
-```
-[link keyword][id]
-
-[id]: URL "Optional Title here"
-
-// code
-Link: [Google][googlelink]
-
-[googlelink]: https://google.com "Go google"
-```
-
-Link: [Google][googlelink]
-
-[googlelink]: https://google.com "Go google"
-
-* 외부링크
 ```
 사용문법: [Title](link)
-적용예: [Google](https://google.com, "google link")
-```
-Link: [Google](https://google.com, "google link")
+적용 예시: [Google](https://google.com, "google link")
 
-* 자동연결
+이메일 링크: <address@example.com>
 ```
-일반적인 URL 혹은 이메일주소인 경우 적절한 형식으로 링크를 형성한다.
-
-* 외부링크: <http://example.com/>
-* 이메일링크: <address@example.com>
-```
-
-* 외부링크: <http://example.com/>
-* 이메일링크: <address@example.com>
+* Link: [Google](https://google.com, "google link")
+* Email: <adress@example.com>
 
 ## 1.7. Highlight(`*`, `_` 사용)
 ```
@@ -267,7 +242,7 @@ __double underscores__
 ## 1.8. 이미지 첨부
 ```
 ![Alt text](/path/to/img.jpg)
-![사진 제목](이미지 주소)
+![Title](link)
 ```
 ![게임하는 곰돌이](https://img2.woyaogexing.com/2021/01/12/c553569abafe40a5aad5d1d42eb6daf7!400x400.webp)
 
