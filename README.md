@@ -265,21 +265,36 @@ __double underscores__
 <img src="https://img2.woyaogexing.com/2021/01/12/c553569abafe40a5aad5d1d42eb6daf7!400x400.webp" width="40%" height="30%" title="%(비율) 크기 설정" alt="RubberDuck"></img>
 
 ## 1.9. 줄바꿈
-`\` + `Enter`후 글을 작성하면 줄이 바뀐다.
+`\` + `Enter`후 글을 작성하면 줄이 바뀐다. 
 ```
-* 줄 바꿈을 하기 위해서는 문장 마지막에서 \를 사용하고 Enter 후 글을 작성해야한다.\
+줄 바꿈을 하기 위해서는 문장 마지막에서 \를 사용하고 Enter 후 글을 작성해야한다.\
 이렇게
 ```
 
-* 줄 바꿈을 하기 위해서는 문장 마지막에서 \를 사용하고 Enter 후 글을 작성해야한다.\
+줄 바꿈을 하기 위해서는 문장 마지막에서 \를 사용하고 Enter 후 글을 작성해야한다.\
 이렇게
 
 ## 1.10. 테이블
 * `|`을 기준으로 테이블이 구분되고, `-`으로 구분된 곳에 `:`으로 문자를 정렬할 수 있다.
+* 첫번째 행은 `-`된다.
+
+```
+|테이블1|테이블2|테이블3|
+|:---|:---:|---:|
+|왼쪽정렬|중앙정렬|오른쪽정렬|
+|여기서도|*강조 기능이*|**작동된다**|
+```
 
 |테이블1|테이블2|테이블3|
 |:---|:---:|---:|
 |왼쪽정렬|중앙정렬|오른쪽정렬|
+|여기서도|*강조 기능이*|**작동된다**|
+
+## 1.11. CheckList
+* 체크리스트는 줄 앞에 `-[x]` 혹은 `-[ ]`써서 만들 수 있다.
+* -[x] 이것은 완료된 항목이다. 
+* -[ ] 이것은 완료되지 않은 항목이다. 
+
 
 ***
 ## ○ 참고문헌
@@ -287,3 +302,4 @@ Markdown은 마크다운 사용법 공부 목적으로 아래 문서를 참고�
 * [John gruber 마크다운 번역](http://nolboo.github.io/blog/2013/09/07/john-gruber-markdown/)
 * [깃허브 취향의 마크다운 번역](http://nolboo.github.io/blog/2014/03/25/github-flavored-markdown/)
 * [[공통] 마크다운 markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+* [GitHub Docs 기본 쓰기 및 서식 지정 구문](https://docs.github.com/ko/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
