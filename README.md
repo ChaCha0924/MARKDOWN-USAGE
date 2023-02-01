@@ -298,7 +298,8 @@ __double underscores__
 
 ***
 ## ○ 참고문헌
-Markdown은 마크다운 사용법 공부 목적으로 아래 문서를 참고하였으며, 좀 더 자세한 설명을 원하시면 아래 문서를 참고해주세요.^^
+Markdown은 마크다운 사용법 공부 목적으로 만들었으며, 아래 문서를 참고하였습니다.\
+좀 더 자세한 설명을 원하시면 아래 문서를 참고해주세요.^^
 * [John gruber 마크다운 번역](http://nolboo.github.io/blog/2013/09/07/john-gruber-markdown/)
 * [깃허브 취향의 마크다운 번역](http://nolboo.github.io/blog/2014/03/25/github-flavored-markdown/)
 * [[공통] 마크다운 markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
